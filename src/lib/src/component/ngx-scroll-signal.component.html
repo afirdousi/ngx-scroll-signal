@@ -1,0 +1,12 @@
+<div class="ngx-scroll-signal__container"
+     [class.horizontal]="isHorizontal"
+     [class.vertical]="isVertical"
+     [class.top]="isHorizontal || isVertical"
+     [class.left]="isVertical"
+     [style.background-color]="baseColor"
+     [style.opacity]="opacity"
+>
+    <div class="ngx-scroll-signal__filler"
+         [style.background-color]="signalColor"
+         #filler></div>
+</div>

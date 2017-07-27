@@ -1,0 +1,34 @@
+.ngx-scroll-signal__container{
+    position: fixed;
+    z-index: 10000;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ngx-scroll-signal__container.horizontal{
+    width: 100%;
+    height: 10px !important;
+}
+
+.ngx-scroll-signal__container.vertical{
+    /*Vertical is always on the left because of default scrollbars on the right*/
+    width: 10px;
+    height: 100%;
+}
+
+.ngx-scroll-signal__container.top {
+    top:0;
+}
+
+.ngx-scroll-signal__container.bottom {
+    bottom: 0;
+}
+
+.ngx-scroll-signal__container.left {
+    left: 0;
+}
+
+.ngx-scroll-signal__filler{
+    padding: 0 !important;
+    margin: 0 !important;
+}
